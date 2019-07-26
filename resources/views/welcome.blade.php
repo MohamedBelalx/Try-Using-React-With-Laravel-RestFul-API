@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>hola</title>
 
@@ -12,7 +13,7 @@
         <!-- Styles -->
     </head>
     <body>
-        <div id="example"></div>
+        <div id="Index"></div>
     </body>
     <script src='../js/app.js'></script>
 </html>
